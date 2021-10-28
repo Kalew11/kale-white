@@ -1,0 +1,50 @@
+/* Element Selectors */
+body h1{
+  color:blue;
+  background-color:green;
+  padding:10px;
+}
+h2{
+  color:yellow;
+}
+
+div{
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+/* universal star selector */
+*{
+  margin:0px;
+}
+
+/* Attribute selectors */
+input[type="submit"]{
+  background-color:blue;
+  color:white;
+}
+
+
+/*Descendant selector*/
+
+
+/*Sibling selectors*/
+
+
+/*Adjacent selectors*/
+h2+p{
+  color:white;
+  text-decoration: underline;
+}
+
+/*nth-of-type selectors*/
+div:nth-of-type(odd){
+  background-color: teal;
+}
+
+div:nth-of-type(even){
+  background-color: skyblue;
+}
+
+
+/*nth-child selector*/
