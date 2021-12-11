@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Cheat Sheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+
+      <nav>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="htmlcheatsheet.html">HTML Cheat Sheet</a></li>
+              <li><a href="javascriptcheatsheet.html">JavaScript Cheat Sheet</a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <div class="paragraphs">
+
+
+  <h1>HTML Cheat Sheet</h1>
+  <div class="quicktips">
+    <ul>
+      <li>Always make sure to close tags!</li>
+      <li>h1 to h5 are used to quickly select the size of font you want before editing it further, also helps with targetting with css</li>
+      <li>Create divs to allow for easy targeting for styling in CSS, as well as targeting values in Javascript!</li>
+      <li>Although it is best to style in CSS, "&lt;b&gt;, &lt;i&gt;, &lt;u&gt;" are useful to include, as it will give you a rough outline, or can be used to fully style pages where formatting isn't used as much, such as resume pages which need to be kept clean</li>
+      <li> use ctrl + / to comment out things</li>
+      <li>always make sure to size images properly using height or width. Putting one will keep the image proportions proper. Putting many may skew the image size</li>
+      <li>use "&nbsp" for quick formatting if just a few spaces are needed.</li>
+      <li>keep tags consistent across pages so that they are easy to style with css. ie. h1 tags can be used for titles so they both style the same</li>
+    </ul>
+  </div>
+  <h4>How to Make a Table!</h4>
+
+
+  <h1>Example Registration Form:</h1>
+  <div class="table">
+
+
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <table>
+          <tr>
+            <td><label for="idName">Enter Name: </label></td>
+            <td><input id="idName" type="text" name="inputName" value="" required></td>
+          </tr>
+          <tr>
+            <td><label for="idAddress">Enter Address:</label></td>
+            <td><input id="idAddress" type="text" name="inputAddress" value="" minLength="5" required></td>
+          </tr>
+          <tr>
+            <td>
+              <label>Male </label>
+              <input id="idGenderMale" type="radio" name="Gender" value="Male" required>
+              <label>Female </label>
+              <input type="radio" name="Gender" value="Female">
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="idEmail">Email: </label></td>
+            <td><input id="idEmail" type="email" name="" value="" required></td>
+
+          </tr>
+          <tr>
+            <td><label>Agree with the terms? </label></td>
+            <td><input id="idAgreement" type="checkbox" name="inputAgreement" value="true" required></td>
+
+          </tr>
+
+        </table>
+
+  </div>
+
+    <div class="Tabletips">
+      <ol>
+        <li>first start with typing &lt table &gt</li>
+        <li>use  &lt;tr&gt; to declare a row. end with &lt/tr&gt </li>
+        <li>next, use &lt;td &gt to declare the data for the row. This means table data, but will insert the columns;</li>
+        <li>you will also want to use labels and inputs in the td cells to organize the data. common types are </li>
+          <ul>
+            <li>button</li>
+            <li>checkbox</li>
+            <li>radio</li>
+            <li>submit</li>
+          </ul>
+        <li>There are also many more! see  <a href="https://www.w3schools.com/html/html_form_input_types.asp">Here!</a></li>
+
+      </ol>
+
+      <p>See here for tags we can use <a href="https://www.w3schools.com/TAGS/default.ASP">https://www.w3schools.com/TAGS/default.ASP</a>
+
+
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
