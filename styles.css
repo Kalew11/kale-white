@@ -1,0 +1,54 @@
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #29c3f2;
+  font-size: 18px;
+
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.quicktips{
+  font-size: 1.2em;
+  color: #064c61;
+}
+
+li a:hover {
+  background-color: #0b576e;
+}
+
+.paragraphs{
+  margin-left: 150px;
+}
+
+h1{
+  color: #317387;
+  font-size: 2.9em;
+}
+
+h2{
+  font-size: 2.5em;
+}
+
+h4{
+  font-size:2.8em;
+  color:#31464d;
+}
+
+span{
+  color:red;
+}
